@@ -16,6 +16,7 @@
           <li><a href="#about">About</a></li>
           <li><a href="#experience">Experience</a></li>
           <li><a href="#projects">Projects</a></li>
+          <li><a href="#packages">Packages</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </div>
@@ -32,6 +33,7 @@
           <li><a href="#about" onclick="toggleMenu()">About</a></li>
           <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
           <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#packages" onclick="toggleMenu()">Packages</a></li>
           <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
         </div>
       </div>
@@ -43,7 +45,7 @@
       <div class="section__text">
         <p class="section__text__p1">Hello, I'm</p>
         <h1 class="title">Pramod Jayansiri</h1>
-        <p class="section__text__p2">Software Engineer</p>
+        <p class="section__text__p2">Software Engineer | NPM Developer | Creative Professional</p>
         <div class="btn-container">
           <button
             class="btn btn-color-2"
@@ -68,6 +70,18 @@
             class="icon"
             onclick="location.href='https://github.com/PramodSithara'"
           />
+          <img
+            src="./assets/medium.png"
+            alt="My Medium profile"
+            class="icon"
+            onclick="location.href='https://medium.com/@pramodsithara9999'"
+          />
+          <img
+            src="./assets/npm.png"
+            alt="My Npm profile"
+            class="icon"
+            onclick="location.href='https://npmjs.com/~pramodsithara'"
+          />
         </div>
       </div>
     </section>
@@ -77,7 +91,7 @@
       <div class="section-container">
         <div class="section__pic-container">
           <img
-            src="./assets/my.png"
+            src="./assets/pramodnew.jpeg"
             alt="Profile picture"
             class="about-pic"
           />
@@ -105,8 +119,7 @@
           </div>
           <div class="text-container">
             <p>
-              Passionate programmer pursuing ICT at the University of Jaffna, aspiring to become a 
-              skilled Software Engineer. Proficient in multiple programming languages and web technologies.
+              Passionate programmer pursuing ICT at the University of Jaffna, aspiring to become a skilled Software Engineer and published npm developer. I build secure backend tools, modern web applications, and creative digital experiences that solve real-world problems.
             </p>
           </div>
         </div>
@@ -226,8 +239,30 @@
                   class="icon"
                 />
                 <div>
-                  <h3>C#</h3>
-                  <p>Intermediate</p>
+                  <h3>JavaScript</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>.NET</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>C++</h3>
+                  <p>Experienced</p>
                 </div>
               </article>
               <article>
@@ -530,6 +565,48 @@
         onclick="location.href='./#contact'"
       />
     </section>
+    <section id="packages">
+      <p class="section__text__p1">Published npm libraries</p>
+      <h1 class="title">NPM Packages</h1>
+      <div class="experience-details-container">
+        <div class="about-containers package-grid">
+          <div class="details-container color-container package-card">
+            <div class="package-header">
+              <h2 class="experience-sub-title project-title">express-origin-guard</h2>
+              <span class="pkg-badge">Middleware</span>
+            </div>
+            <p>
+              A single Express middleware that locks a backend to one exact frontend origin,
+              enforces strict http/https rules, handles CORS and preflight requests, rate-limits
+              by IP, logs blocked attempts, and supports monitor-only rollout.
+            </p>
+            <div class="package-meta">
+              <code>npm install express-origin-guard</code>
+            </div>
+          </div>
+          <div class="details-container color-container package-card">
+            <div class="package-header">
+              <h2 class="experience-sub-title project-title">request-autopsy</h2>
+              <span class="pkg-badge">Security</span>
+            </div>
+            <p>
+              A zero-config Express middleware that automatically inspects every request and response,
+              detects wrong methods, missing fields, XSS attempts, SQL injection patterns, and slow
+              endpoints without requiring extra setup.
+            </p>
+            <div class="package-meta">
+              <code>npm install request-autopsy</code>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
     <section id="contact">
       <p class="section__text__p1">Get in Touch</p>
       <h1 class="title">Contact Me</h1>
@@ -559,11 +636,12 @@
             <li><a href="#about">About</a></li>
             <li><a href="#experience">Experience</a></li>
             <li><a href="#projects">Projects</a></li>
+            <li><a href="#packages">Packages</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
         </div>
       </nav>
-      <p>Copyright &#169; 2025 Pramod Sithara. All Rights Reserved.</p>
+      <p>Copyright &#169; 2026 Pramod Sithara. All Rights Reserved.</p>
     </footer>
     <script src="script.js"></script>
   </body>

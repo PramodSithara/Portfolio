@@ -5,10 +5,12 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
   font-family: "Poppins", sans-serif;
+  line-height: 1.6;
 }
 
 html {
@@ -149,8 +151,7 @@ a:hover {
 /* SECTIONS */
 
 section {
-  padding-top: 4vh;
-  height: 96vh;
+  padding: 4vh 0 4rem;
   margin: 0 10rem;
   box-sizing: border-box;
   min-height: fit-content;
@@ -347,7 +348,7 @@ article {
   display: flex;
   width: 10rem;
   justify-content: space-around;
-  gap: 0.5rem;
+  gap: 1.5rem;
 }
 
 article .icon {
@@ -381,13 +382,57 @@ article .icon {
   border-color: rgb(163, 163, 163);
 }
 
+/* PACKAGES */
+
+.package-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.5rem;
+}
+
+.package-card {
+  text-align: left;
+}
+
+.package-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.pkg-badge {
+  display: inline-flex;
+  align-items: center;
+  border-radius: 999px;
+  background: #111;
+  color: white;
+  padding: 0.35rem 0.75rem;
+  font-size: 0.8rem;
+  white-space: nowrap;
+}
+
+.package-meta {
+  margin-top: 1rem;
+}
+
+.package-meta code {
+  display: inline-block;
+  background: #f2f2f2;
+  padding: 0.6rem 0.8rem;
+  border-radius: 0.75rem;
+  font-size: 0.95rem;
+  word-break: break-word;
+}
+
 /* CONTACT */
 
 #contact {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  height: 70vh;
+  min-height: 70vh;
 }
 
 .contact-info-upper-container {
